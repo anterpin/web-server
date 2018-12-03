@@ -3,9 +3,9 @@
 
 public class SSLManager
 {
-    public static final String pathToFile = "/home/anterpin/Java/";
+    public static final String pathToFile = "/path/to/file/";
     public static final String fileName = "test.keystore";
-    public static final String password = "ciaociao";
+    public static final String password = "password";
 
     public static void trust()
     {
