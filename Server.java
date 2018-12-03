@@ -33,7 +33,7 @@ import javax.net.ssl.TrustManagerFactory;
 //Each client connection will be managed to a dedicated thread
 class Server 
 {
-    static final String WEB_ROOT = "/home/anterpin/Java/";
+    static final String WEB_ROOT = "/web/root/path/";
     static final String DEFAULT_FILE = "index.html";
     static final String FILE_NOT_FOUND = "404.html";
     static final String METHOD_NOT_SUPPORTED = "not_supported.html";
