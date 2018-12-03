@@ -173,7 +173,7 @@ public class Connection implements Runnable
             fileName = Server.FILE_NOT_FOUND;
         }
         
-        String content = new String();
+        String content=null;
         if(fileName.endsWith(".py"))
         {
            content = handlePython(Server.WEB_ROOT + fileName);
